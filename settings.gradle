@@ -1,2 +1,3 @@
 rootProject.name='EasyPermissionX'
 include ':app'
+include ':library'
