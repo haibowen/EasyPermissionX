@@ -17,6 +17,7 @@ dependencies{
 ## second
 
 ### 申请单个权限
+~~~
  EasyPermissionX.request(this, android.Manifest.permission.CALL_PHONE) { allGranted,         deniedList ->
        if (allGranted) {
            Toast.makeText(this, "You granted $deniedList", Toast.LENGTH_SHORT).show()
@@ -24,8 +25,9 @@ dependencies{
                Toast.makeText(this, "You denied $deniedList", Toast.LENGTH_SHORT).show()
                 }
             }
- 
+ ~~~
  ### 申请多个权限
+ ~~~
  EasyPermissionX.request(this, android.Manifest.permission.CALL_PHONE,
                                 android.Manifest.permission.READ_CONTACTS) { allGranted,     deniedList ->
         if (allGranted) {
@@ -34,3 +36,4 @@ dependencies{
                Toast.makeText(this, "You denied $deniedList", Toast.LENGTH_SHORT).show()
                 }
             }
+ ~~~
