@@ -5,13 +5,15 @@ EasyPermissionX是一个针对Android运行时权限获取的一个封装
 # How to use
 
 ## first
+~~~
+
 
 dependencies{
 ....
    implementation 'com.easypermissionx.hyploo:easypermissionx:1.0.0'
 ....
 }
-
+~~~
 ## second
 
 ### 申请单个权限
